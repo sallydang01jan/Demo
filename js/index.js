@@ -1,7 +1,4 @@
-console.log("Hello, world!");
-let Hello, World!;
-let Goodbye!;
-let How;
+
 console.log(a);
 let a;
 let b;
