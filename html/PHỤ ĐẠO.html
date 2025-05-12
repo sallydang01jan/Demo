@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("noi dung");
+
+        let winners = 2;
+        let name = "Sally Dang";
+        let age = 16;
+        let isEligible = true;
+        let firstName = "Sally";
+        let lastName = "Dang";
+        let email = "sally01january@gmail.com";
+        let createdDay = 2023;
+        let updateDay = 2025;
+        let deleteDay = 2050;
+        let price = 1000;
+        let message = "Hello, world!";
+        let isStudent = true;
+        let hasCompleted = false;
+        let isActive = true;
+        let selectedItem = null;
+        let str1 = "Sally";
+        let str2 = "Dang";
+        let result = str1 + str2;
+        console.log(result);
+
+        console.log(firstName, lastName, email, createdDay, updateDay, deleteDay);
+        console.log("so ky tu trong chuoi : ", result.length);
+
+        let data = "Dang, Sally"
+
+        let subStr=data.split(",");
+
+        console.log(subStr[0]);
+        console.log(subStr[1]);
+
+        let str3 = "CrochetThings";
+        let up = str3.toUpperCase(); //output: "CROCHETTHINGS"
+        console.log(up);
+
+        let str4 = "CrochetThings";
+        let low = up.toLowerCase(); //output: "crochetthings"
+        console.log(low);
+
+        let str5 = "CrochetThings";
+        let trimText = str5.trim(); //output: "CrochetThings"
+        console.log(trimText);
+        // toán tử
+        let x1=1;
+        let x2=2;
+        let kq=x1+x2;
+        console.log(kq);
+
+        let x3=10;
+        let x4=50;
+        let kq2=x4-x3;
+        console.log(kq2);
+
+        let x5=5;
+        let x6=6;
+        let kq3=x5*x6;
+        console.log(kq3);
+
+        let x7=10;
+        let x8=100;
+        let kq4=x8/x7;
+        console.log(kq4);
+
+        let aValue=10;
+        a+=5; // a = a + 5
+        console.log(a); // 15
+        a-=1; // a = a - 1
+        console.log(a); // 14
+        a*=5; // a = a * 5
+        console.log(a); // 70
+        a/=5; // a = a / 5
+
+        let b = true;
+        let c = false;
+
+        console.log(b && c); // false
+        console.log(b && true); // true
+        console.log(b || c); // trues
+        console.log(!b); // false
+        console.log(!c); // true
+
+
+        let x9 = 15;
+        let y9 = 4;
+        let result2 = x9 / y9;
+        console.log(result2); // 3.75
+
+        let x10 = 10;
+        x10 += 5; // x = x + 5
+        let result3 = x10 + 5; // 15
+        console.log(result3); // 15
+
+        let x11 = 5;
+        let y11 = 5;
+        let result4 = x11 == y11; // so sánh giá trị
+        console.log(result4); // true
+        console.log(x11 == y11); // true
+
+        // điều kiện
+    let a1 = 10;
+        if (a1 = 100) {
+            console.log("sai bét");
+        } else {
+            console.log("đúng rồi");
+        }
+        let str ='Hello world!';
+
+        //vỏng lặp
+
+        let i = 1;
+
+        for (let i = 1; i <= 50; i++) {
+            console.log("i");
+        }
+        let fruits = ["apple", "banana", "cherry", "orange", "grape", "kiwi", "mango", "peach", "pear", "plum", "strawberry", "watermelon", "blueberry", "raspberry", "blackberry", "pineapple", "papaya", "coconut", "pomegranate", "kiwifruit", "tangerine", "apricot", "nectarine", "cantaloupe", "honeydew", "fig", "date", "lychee", "dragonfruit", "jackfruit", "passionfruit", "guava", "starfruit", "persimmon", "blood orange", "mandarin orange", "soursop", "durian", "salak", "tamarind", "carambola", "cherimoya", "custard apple", "langsat", "mangosteen", "sapodilla", "star apple", "white sapote", "black sapote", "cacao", "coconut cream apple", "dragon fruit", "longan", "rambutan", "pulasan", "duku", "sugar apple", "cempedak", "breadfruit", "elderberry", "serviceberry", "jostaberry", "boysenberry", "cloudberry", "huckleberry", "marionberry", "salmonberry", "thimbleberry", "wineberry", "barberry", "gooseberry", "currant", "mulberry", "sea buckthorn", "barbados cherry", "acerola cherry", "surinam cherry", "black currant", "red currant", "white currant"];
+
+        fruits.splice(36, 100)
+
+        let fruitIndex = fruits.indexOf("strawberry");
+
+        if (fruitIndex > 1) {
+            console.log("strawberry có trong mảng fruits");
+        } else {
+            console.log("strawberry không có trong mảng fruits");
+        }
+
+        for (let index = 0; index < fruits.length; index++) {
+            const element = fruits[index];
+            console.log(element);
+        }
+
+        let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        numbers.push(11,12,13,14,15,16,17,18,19,20);
+        console.log(numbers);
+
+        numbers.splice(0, 100);
+        console.log(numbers);
+
+        numbers[0] = 'giá trị mới';
+        console.log(numbers);
+
+        let mixedArray = [1, "Hello", true, null, undefined, ];
+        let emptyArray = [];
+
+        let person = {
+            name: "Conan Gray",
+            age: 26,
+            isStudent: false,
+            isSinger: true,
+            isBestFriendWithOliviaRodrigo: true,
+            gender: "male",
+            favorteFood: "carrot cake",
+            hobbies: ["singing"],
+                job: {
+                    title: "singer",
+                    company: "Republic Records",
+                    location: "Los Angeles",
+                    yearsOfExperience: 10,
+                }
+        }
+        person["nation"] = "USA";
+        console.log(person);
+        for (let key in person) 
+        {
+            console.log(key);
+        }
+
+        if (person.hasOwnProperty('favoriteFood')) {
+            console.log("Có thuộc tính 'favoriteFood' trong object person");
+        }
+        else {
+            console.log("Không có thuộc tính 'favoriteFood' trong object person");
+        }
+        function tinhDientich(a,b){
+        return a*b;
+    }
+    let s = tinhDientich(5,10);
+    console.log( 'dien tich hinh chu nhat la:', s);
+    document.write('dien tich hinh chu nhat la:', s);
+
+    function tinh_tong(n){
+        let tong = 0;
+        for (let i = 1; i <= n; i++) {
+            tong += i;
+        }
+        console.log('tong la:', tong);
+        return tong;
+    }
+    tinh_tong(10);
+
+    function so_nguyen_to(m){
+        if (m<2) return false;
+        for (let i = 2; i<Math.sqrt(m); i++)
+        {
+            if (m%i==0) return false;
+        }
+        return true;
+    }
+    let m = 3;
+    if (so_nguyen_to(m)){
+        console.log('$(m) la so nguyen to');
+    }
+    else{
+        console.log('$(m) khong phai la so nguyen to');
+    }
+   function tinhgiaithua(d){
+    let gt = 1;
+    for (let i = 2; i <= d; i++){
+        gt *= i;
+    }
+    console.log('giai thua la:', gt);
+   }
+   tinhgiaithua(5);
+
+   function doinhietdo(value){
+    if (type===c){
+        let f = value * 9/5 + 32;
+        console.log(f); 
+    }
+    else if (type===f){
+        let c = value - 32 * 5/9;
+        console.log(c);
+    }
+    else {
+        console.log('nhiet do khong ton tai');
+    }
+   }
+
+   
+    </script>
+</body>
+</html>

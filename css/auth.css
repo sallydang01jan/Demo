@@ -23,10 +23,11 @@ body::before {
   background-position: center;
 }
 
-.logo{
+.header .logo{
   position: absolute;
   bottom: 355px;
-  justify-items: center;
+  justify-items: start;
+  right: 850px;
 }
 
 nav {
