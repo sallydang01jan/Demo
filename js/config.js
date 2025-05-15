@@ -29,9 +29,12 @@ if (localStorage.getItem("currentUser")) {
         JSON.parse(localStorage.getItem("currentUser")).username
       )}`}" />
       <div class="popup">
+        <button onclick="location.href='../html/profile.html'">
+        <span>Sửa profile</span>
+        </button>
         <button class="action-button" onclick="handleSignOut()">
           <i class="fa-solid fa-right-from-bracket"></i>
-          <span> Logout</span>
+          <span> Đăng xuất</span>
         </button>
       </div>
     </div>
